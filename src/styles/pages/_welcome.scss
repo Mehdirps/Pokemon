@@ -1,0 +1,160 @@
+a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+    .welcome-page {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        &:visited {
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .container-img {
+
+                .title {
+                    width: 250px;
+                    margin: auto;
+
+                    @media screen and (min-width:500px) {
+                        width: 350px;
+                    }
+
+                    @media screen and (min-width:1000px) {
+                        width: 550px;
+                    }
+
+                    @media screen and (min-width:1500px) {
+                        width: 750px;
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .logo {
+                    width: 70px;
+                    margin: auto;
+
+                    @media screen and (min-width:500px) {
+                        width: 90px;
+                    }
+
+                    @media screen and (min-width:1000px) {
+                        width: 110px;
+                    }
+
+                    @media screen and (min-width:1500px) {
+                        width: 140px;
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .next,
+            .copyright {
+                font-family: $pokemonGB;
+            }
+
+            @keyframes opacity {
+                0% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0;
+                }
+            }
+
+            .next {
+
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                    font-size: .7rem;
+                    animation: opacity infinite 2s ease-in-out;
+                    cursor: pointer;
+
+                    @media screen and (min-width: 500px) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            width: max-content;
+            margin: auto;
+            display: flex;
+            font-size: .6rem;
+
+            @media screen and (min-width: 500px) {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .background1,
+    .background2 {
+        background-image: url('../../assets/img/welcome-background.png');
+        background-position: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .background1 {
+        animation: background1 20s linear infinite;
+    }
+
+    .background2 {
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        animation: background2 20s linear infinite;
+    }
+
+    @keyframes background1 {
+        0% {
+            right: 0;
+        }
+
+        100% {
+            right: 100%;
+        }
+    }
+
+    @keyframes background2 {
+        0% {
+            left: 100%;
+        }
+
+        100% {
+            left: 0;
+        }
+    }
+}

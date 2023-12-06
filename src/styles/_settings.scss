@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Pocket Monk';
+    src: url('../assets/fonts/Pocket\ Monk.otf');
+}
+
+@font-face {
+    font-family: 'Pokemon GB';
+    src: url('../assets/fonts/Pokemon\ GB.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('../assets/fonts/Pokemon\ Solid.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$pokemonSolid: 'Pokemon Solid';
+$pokemonGB: 'Pokemon GB';
+$pocketMonk: 'Pocket Monk';
+$roboto: 'Roboto', sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}

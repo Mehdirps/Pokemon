@@ -1,0 +1,27 @@
+@import './settings';
+
+// Pages
+@import './pages/welcome';
+@import './pages/dialogue';
+@import './pages/home';
+
+// Components
+@import './components/loader';
+@import './components/navbar';
+@import './components/musicPlayer';
+@import './components/readex';
+@import './components/realisations-list';
+@import './components/topReadexHeader';
+@import './components/realisationDetails';
+@import './components/devCard';
+@import './components/game';
+@import './components/skillsBag';
+@import './components/expTeam.scss';
+
+.dev{
+    padding: 20px;
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+}

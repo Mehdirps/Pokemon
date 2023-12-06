@@ -1,0 +1,96 @@
+.loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.323);
+        z-index: 2;
+    }
+
+    .container {
+        z-index: 3;
+        @media screen and (min-width: 499px) {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+        p {
+            width: max-content;
+            margin: auto;
+            font-family: $pokemonGB;
+            color: white;
+            margin-bottom: 50px;
+
+            @media screen and (min-width: 999px) {
+                font-size: 1.5rem;
+            }
+
+        }
+
+        .icons-container {
+            position: relative;
+            width: 150px;
+            height: 70px;
+
+            @media screen and (min-width: 999px) {
+                width: 200px;
+                height: 100px;
+            }
+
+            figure {
+                width: 50px;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                bottom: 0;
+                animation: icon 1s linear;
+
+                @media screen and (min-width: 999px) {
+                    width: 70px;
+                }
+
+                @keyframes icon {
+                    0% {
+                        bottom: 0;
+                    }
+
+                    50% {
+                        top: 0;
+                    }
+
+                    100% {
+                        bottom: 0;
+                    }
+                }
+
+                &:nth-child(1) {
+                    left: 0;
+                }
+
+                &:nth-child(2) {
+                    left: 50%;
+                    animation-delay:.5s;
+                }
+                
+                &:nth-child(3) {
+                    left: 100%;
+                    animation-delay: 1s;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+}

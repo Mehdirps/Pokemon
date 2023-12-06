@@ -1,0 +1,55 @@
+.top {
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 2px solid #ba9804;
+    width: 100%;
+    height: 7.5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: right;
+    align-items: center;
+    padding: 5px 20px;
+    font-family: $roboto;
+
+    h2 {
+        font-size: 1rem;
+        width: 100%;
+        text-align: left !important;
+    }
+
+    figure {
+        width: 30px;
+        height: 30px;
+        margin: auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .close {
+        cursor: pointer;
+        font-size: 1.5rem;
+
+        @media screen and (min-width: 1000px) {
+            font-size: 2rem;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        p {
+            font-size: 1.2rem;
+        }
+
+        figure {
+            width: 40px;
+            height: 40px;
+        }
+
+        .close {
+            font-size: 1.7rem;
+        }
+    }
+
+}

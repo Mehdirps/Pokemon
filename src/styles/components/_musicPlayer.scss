@@ -1,0 +1,55 @@
+.music-player {
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    font-family: $pokemonGB;
+
+    .icon {
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    .music-container {
+        margin-left: 2px;
+
+        @media screen and (min-width:1099px) {
+            margin: 5px;
+            width: max-content;
+        }
+        h3{
+            font-size: .8rem;
+            text-align: center;
+            color: white;
+        }
+        .music {
+            width: 150px;
+            border-radius: 5px;
+            background-color: #1a1a1b;
+            padding: 5px;
+
+            p {
+                color: white;
+                font-size: .6rem;
+                text-align: center;
+            }
+
+            audio {
+                width: 100%;
+            }
+        }
+
+        .other-musics {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: white;
+            text-align: center;
+            border-top: 2px solid white;
+            padding: 5px;
+
+            h4{
+                font-size: .7rem;
+            }
+        }
+    }
+}

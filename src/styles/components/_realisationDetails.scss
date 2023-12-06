@@ -1,0 +1,177 @@
+.realisation-container {
+    border-bottom: 3px solid #f3d73f;
+    background: rgb(24, 70, 129);
+    background: linear-gradient(180deg, rgba(24, 70, 129, 1) 0%, rgba(34, 121, 158, 1) 48%);
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width:1000px) {
+        height: 65vh;
+    }
+
+    @media screen and (min-width:1500px) {
+        height: 50vh;
+    }
+
+    .return {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        background-color: #172d48;
+        color: white;
+        padding: 0 5px;
+
+        p,
+        .link {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+        }
+
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .next-prev {
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .icon {
+            font-size: 1.5rem;
+        }
+    }
+
+    .container {
+        color: white;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr, 5fr;
+        gap: 20px;
+        max-width: 900px;
+        margin: auto;
+        align-self: center;
+        height: 500px;
+
+        .infos {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .languages {
+                display: flex;
+                gap: 5px;
+
+                p {
+                    text-transform: uppercase;
+                    font-size: .65rem;
+                }
+
+                #javascript,
+                #css,
+                #sass,
+                #php,
+                #node,
+                #react,
+                #vue,
+                #wordpress,
+                #symfony,
+                #react-native,
+                #laravel {
+                    padding: 5px;
+                    border-radius: 10px;
+                    color: white;
+                }
+
+                #javascript {
+                    background-color: #ead41c;
+                    color: black;
+                }
+
+                #css {
+                    background-color: #2760e5;
+                }
+
+                #sass {
+                    background-color: #c36192;
+                }
+
+                #php {
+                    background-color: #7175aa;
+                }
+
+                #node {
+                    background-color: #7bc326;
+                }
+
+                #react,
+                #react-native {
+                    background-color: #5ccfee;
+                }
+
+                #vue {
+                    background-color: #3eaf7c;
+                }
+
+                #wordpress {
+                    background-color: #2f3439;
+                }
+
+                #symfony {
+                    background-color: #000000;
+                }
+
+                #laravel {
+                    background-color: #f9322c;
+                }
+            }
+        }
+
+        .other-infos {
+            height: max-content;
+
+            .description {
+                max-width: 550px;
+
+                @media screen and (min-width:499px) {
+                    display: block;
+                }
+
+                img {
+                    display: block;
+                    box-shadow: #172d48 5px 5px;
+                    max-height: 100px;
+                    margin: 0 auto 10px;
+
+                    @media screen and (min-width:499px) {
+                        display: inline;
+                        max-height: 150px;
+                        margin: 0 10px 0 0;
+                        float: right;
+
+                    }
+
+
+                    &:before,
+                    &:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                    }
+                }
+            }
+        }
+    }
+}

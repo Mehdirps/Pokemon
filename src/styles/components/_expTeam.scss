@@ -1,0 +1,213 @@
+.expTeam {
+    width: 90%;
+    max-width: 400px;
+    // max-height: 70vh;
+    border-radius: 10px;
+    font-family: $roboto;
+    animation: open linear .5s;
+    z-index: 5;
+    margin-top: 80px;
+    background: url('../../assets/img/backgroud-exp.png') center no-repeat;
+    padding: 10px;
+    position: relative;
+
+    @media screen and (min-width: 799px) {
+        max-width: 800px;
+    }
+
+    .expTeam-header {
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+
+            @media screen and (min-width:799px) {
+                justify-content: unset;
+            }
+
+            img {
+                width: 2rem;
+                height: 2rem;
+                transform: rotate(-25deg);
+
+                @media screen and (min-width:799px) {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+
+            h2 {
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                text-shadow: 1px 1px 1px white,
+                    1px 1px 1px white;
+
+                @media screen and (min-width:799px) {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        .category-btns {
+            display: flex;
+            justify-content: space-between;
+            max-width: 300px;
+            margin: 10px auto;
+
+            @media screen and (min-width:799px) {
+                margin: 10px 0 10px 0;
+            }
+
+            p {
+                width: 100px;
+                border-radius: 50px;
+                text-align: center;
+                background-color: white;
+                transition: all .5s linear;
+                font-size: .8rem;
+                padding: 5px;
+            }
+
+            .selected {
+                background-color: #eabd06;
+                color: white;
+                transition: all .5s linear;
+            }
+        }
+    }
+
+    .expTeam-container {
+
+        @media screen and (min-width:799px) {
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+        }
+
+        .exp-list-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .empty-exp,
+            .expCard {
+                width: 90%;
+                margin: auto;
+                max-width: 300px;
+                height: 50px;
+                background-color: rgba(90, 90, 90, 0.343);
+                padding: 0 20px 0 20px;
+                border-radius: 50px;
+                box-shadow: 0px 0px 23px 5px rgba(0, 0, 0, 0.20);
+
+                @media screen and (min-width:799px) {
+                    margin: unset;
+                }
+            }
+
+            .expCard {
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 0px 0px 23px 5px rgba(0, 0, 0, 0.20);
+                transition: all .5s linear;
+                position: relative;
+
+
+                figure {
+                    width: 30px;
+
+                    @media screen and (min-width:399px) {
+                        width: 50px;
+                    }
+
+                    img {
+                        width: 100% !important;
+                    }
+                }
+
+                .infos {
+                    h3 {
+                        font-size: .8rem;
+                    }
+
+                    .life {
+                        display: block;
+                        width: 100%;
+                        height: 3px;
+                        background-color: #01d703;
+                        margin: 3px 0 3px 0;
+                    }
+                }
+
+                .exp-id {
+                    font-size: .8rem;
+                    align-self: flex-end;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .selected-exp-arraw {
+                display: none;
+
+                @media screen and (min-width:799px) {
+                    display: block;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    left: 0;
+                    top: 50%;
+                    width: 20px;
+                }
+            }
+        }
+
+        @media screen and (min-width:799px) {
+            #selected-exp {
+                background-color: grey;
+                color: white;
+            }
+        }
+
+        .exp-details {
+            display: none;
+            grid-column: 3/4;
+            align-self: flex-start;
+
+            @media screen and (min-width:799px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .exp-details-logo {
+                width: 150px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            h3 {
+                margin: 10px 0 10px 0;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 20px;
+        cursor: pointer;
+
+        @media screen and (min-width:799px) {
+            width: 25px;
+        }
+    }
+}

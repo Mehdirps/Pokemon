@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="600mm"
+   height="297mm"
+   viewBox="0 0 600 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="background-home.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.4069336"
+     inkscape:cx="978.04653"
+     inkscape:cy="399.32805"
+     inkscape:window-width="1920"
+     inkscape:window-height="989"
+     inkscape:window-x="2151"
+     inkscape:window-y="56"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#575757;fill-opacity:1;stroke:none;stroke-width:2.66361;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="rect2224"
+       width="605.03406"
+       height="301.93695"
+       x="0.91950464"
+       y="-0.33943698" />
+    <path
+       style="fill:#fe5858;fill-opacity:1;stroke:none;stroke-width:2.6791;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       d="M 0.91950464,-0.33943698 605.95355,282.82754 V -0.33943698 Z"
+       id="rect846" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.6791;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       d="M 605.95355,301.5975 0.91950464,18.430533 V 301.5975 Z"
+       id="rect846-3" />
+    <g
+       id="g829"
+       inkscape:label="ball">
+    </g>
+  </g>
+</svg>

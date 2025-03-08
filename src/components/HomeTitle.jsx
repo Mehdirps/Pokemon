@@ -21,11 +21,11 @@ const HomeTitle = () => {
                                         sequence={[
                                             'Développeur Web et Mobile',
                                             3000,
-                                            'Développeur FullStack JS',
+                                            'Développeur FullStack',
                                             3000,
-                                            'Développeur Front React.js',
+                                            'Développeur Front-end React.js',
                                             3000,
-                                            'Développeur Back Node.js',
+                                            'Développeur Back-end Laravel',
                                             3000,
                                             'Designer Web',
                                             3000

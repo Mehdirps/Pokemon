@@ -15,11 +15,11 @@ const Infos = () => {
                 </div>
                 <div className="age">
                     <p>Age</p>
-                    <p>23 ans</p>
+                    <p>25 ans</p>
                 </div>
                 <div className="post">
                     <p>Spécialité</p>
-                    <p>Développeur FullStack JavaScript - MERN</p>
+                    <p>Développeur FullStack React.js / Laravel</p>
                 </div>
                 <div className="phone">
                     <p>Téléphone</p>
@@ -48,7 +48,7 @@ const Infos = () => {
             </div>
             <div className="formation">
                 <p>Entreprise</p>
-                <p>MaPlaqueNFC</p>
+                <p>Agoraline</p>
             </div>
         </div>
     );

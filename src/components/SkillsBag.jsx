@@ -92,7 +92,7 @@ const SkillsBag = () => {
             'icon': './img/icons/skills/back/php.png',
             'started_date': '09/2021',
             'category': 'back-end',
-            'level': 'Niveau moyen'
+            'level': 'Bon niveau'
         },
         {
             'name': 'Symfony',
@@ -106,14 +106,14 @@ const SkillsBag = () => {
             'icon': './img/icons/skills/back/laravel.png',
             'started_date': '07/2023',
             'category': 'back-end',
-            'level': 'Niveau moyen'
+            'level': 'Bon niveau'
         },
         {
             'name': 'MySql',
             'icon': './img/icons/skills/back/mysql.png',
             'started_date': '09/2021',
             'category': 'database',
-            'level': 'Niveau moyen'
+            'level': 'Bon niveau'
         },
         {
             'name': 'Vs Code',
@@ -169,7 +169,7 @@ const SkillsBag = () => {
             'icon': './img/icons/skills/tools/postman.png',
             'started_date': '11/2022',
             'category': 'gestion',
-            'level': 'Niveau moyen'
+            'level': 'Bon niveau'
         },
         {
             'name': 'MongoDbCompass',

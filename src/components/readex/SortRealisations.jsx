@@ -17,6 +17,7 @@ const SortRealisations = () => {
             <option value="php">PHP</option>
             <option value="symfony">Symfony</option>
             <option value="wordpress">Wordpress</option>
+            <option value="laravel">Laravel</option>
         </select>
     );
 };

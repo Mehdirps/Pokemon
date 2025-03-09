@@ -14,7 +14,7 @@ const Welcome = () => {
                                 <img src="./img/title.png" alt="Illustration du titre du site" />
                             </figure>
                             <figure className="logo">
-                                <img src="./img/Logo.svg" alt="Logo du site" />
+                                <img src="./img/logo-mehdi.png" alt="Logo du site" />
                             </figure>
                         </div>
                         <div className="next">
